@@ -1,0 +1,45 @@
+.bookChoice {
+    background-color: darksalmon;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* 选择第一个子元素 div */
+.bookChoice > div:nth-child(1) {
+    padding: 10px;
+    margin:10px auto;
+    border: 2px solid darkred;
+    background-color: lightcoral;
+}
+
+/* 选择第二个子元素 div */
+.bookChoice > div:nth-child(2) {
+    padding: 10px;
+    margin:10px auto;
+    border: 2px solid darkblue;
+    background-color: lightblue;
+}
+
+/* 选择第二个子元素 div */
+.bookChoice > div:nth-child(3) {
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid rgb(110, 110, 0);
+    background-color: rgb(255, 252, 198);
+}
+
+button {
+    margin:0 5px;
+}
+
+input {
+    width:150px;
+}
+
+.bookChoice > div:nth-child(1) input {
+    width:50px;
+}
